@@ -6,10 +6,13 @@ package com.java.fundamental.array;
 public class Example8 {
     public static void main(String[] args) {
         Dog [] dogs = {new Dog(), new Dog()};
+        //Cat [] cats = {new Cat(), new Cat()};
 
         Animal[] animals = dogs;
+       // Animal[] animals1 = cats;
 
         makeSounds(dogs);
+       // makeSounds(cats);
     }
 
     private static void makeSounds(Animal[] animals) {
